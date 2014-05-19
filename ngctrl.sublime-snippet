@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[(function (window, angular) { 'use strict';
+
+    angular.module('${1:main}')
+    .controller('${2:Ctrl}', function () {
+        $0
+    });
+
+})(window, window.angular);
+]]></content>
+    <tabTrigger>ngctrl</tabTrigger>
+    <scope>source.js</scope>
+    <description>ng-ctrl</description>
+</snippet>
